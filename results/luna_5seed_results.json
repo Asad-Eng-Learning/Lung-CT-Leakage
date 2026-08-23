@@ -1,0 +1,32 @@
+{
+  "random_auc_mean": 0.6107222616093584,
+  "random_auc_std": 0.03735198813038878,
+  "patient_auc_mean": 0.4624141645230807,
+  "patient_auc_std": 0.06757691484369166,
+  "inflation": 0.14830809708627768,
+  "random_f1_mean": 0.3080845993602458,
+  "patient_f1_mean": 0.21647675544264694,
+  "random_folds": [
+    0.6628623188405797,
+    0.566111308046792,
+    0.5844202898550726,
+    0.5936594202898551,
+    0.6465579710144927
+  ],
+  "patient_folds": [
+    0.3729848558866634,
+    0.47953216374269014,
+    0.4145850120870266,
+    0.47229437229437227,
+    0.5726744186046511
+  ],
+  "mean_leaking_patients_random_split": 63.6,
+  "n_patches": 488,
+  "n_patients": 88,
+  "n_positive": 122,
+  "n_negative": 366,
+  "n_features": 86,
+  "subset": "subset0",
+  "seeds": 5,
+  "model": "RandomForest(n_estimators=300, class_weight=balanced)"
+}
